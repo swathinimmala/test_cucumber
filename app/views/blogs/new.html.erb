@@ -1,0 +1,6 @@
+<%= form_for @blog do |blog|%>
+  <%= blog.text_field :title, :id => "title" %>
+  <%= blog.text_field :body, :id => "body" %>
+  <%= blog.submit "Register", :id => "Create" %>
+  <% end %>
+
