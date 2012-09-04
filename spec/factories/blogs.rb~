@@ -1,0 +1,6 @@
+FactoryGirl.define do
+  factory :blog do |blog|
+    blog.title = "Test Blog"
+    blog.body = "This is a test blog"
+  end
+end
