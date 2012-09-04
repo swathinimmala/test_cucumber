@@ -52,5 +52,4 @@ end
 
 And /^I should see the updated blog "([^"]*)"$/ do |arg2|
   page.should have_content(arg2)
-  save_and_open_page
 end
